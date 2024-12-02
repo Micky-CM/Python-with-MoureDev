@@ -1,5 +1,5 @@
-# Variables
-my_str_variable = 'My string variable' # snake_case o minusculas
+## Variables ##
+my_str_variable = 'My string variable' # snake_case o minúsculas
 print(my_str_variable)
 
 int_variable = 5
@@ -7,7 +7,7 @@ print(int_variable)
 
 int_to_str_variable = str(int_variable)
 print(int_to_str_variable)
-print(type(int_to_str_variable))
+print(type(int_to_str_variable)) # type es para mostrar el tipo de dato
 
 bool_variable = False
 print(bool_variable)
@@ -15,7 +15,7 @@ print(bool_variable)
 # Funsion len()
 print(len(my_str_variable))
 
-# Concatenacion de variables en un print
+# Concatenación de variables en un print
 print(my_str_variable, int_to_str_variable, bool_variable)
 print('The value is: ', bool_variable)
 
@@ -23,7 +23,7 @@ print('The value is: ', bool_variable)
 name, surname, nick, age = 'Miguel', 'Colque', 'Micky', 35
 
 # Concatenar con formato f""
-print(f"My name is: {name} {surname}, I'm {age} years old, and my nick is {nick}")
+print(f"My name is: {name} {surname}, I'm {age} years old and my nick is {nick}")
 
 # Input para pedir datos al usuario
 # Las variables pueden ser reasignadas
