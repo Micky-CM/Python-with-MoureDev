@@ -39,7 +39,7 @@ language_slice = language[-3]
 print(language_slice)
 
 # Reverse
-reversed_language = language[::-1]
+reversed_language = language[::-1] # Invierte el orden del string
 print(reversed_language)
 
 # Funciones
