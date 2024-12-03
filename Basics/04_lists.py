@@ -1,9 +1,10 @@
 ## Lists ##
 my_list = [35, 1.73, 'Micky', True]
 other_list = list([32, 24, 24, 62, 19, 53, 40])
-
 print(my_list)
 print(other_list)
+print(type(my_list))
+print(type(other_list))
 
 # Recorrer listas
 print(my_list[0])
@@ -13,7 +14,7 @@ print(my_list[-3]) # Tercer elemento contando desde atrás
 
 
 # Funciones
-print(len(other_list)) # Muestra la longitud de la lista (6)
+print(len(other_list)) # Muestra la longitud de la lista (7)
 
 print(other_list.count(24)) # Cuenta la cantidad de veces que se repite un elemento (2)
 
@@ -37,13 +38,14 @@ pop_element = other_list.pop(2) # Remueve el elemento[2] y lo almacena en una va
 print(pop_element)
 print(other_list)
 
+# del es una operacion propia del lenguaje
 del other_list[2] # Elimina un elemento de la lista por índice
 print(other_list)
 
 new_list = other_list.copy() # Copia los valores de la lista y los asigna a otra lista
 print(new_list)
 
-other_list.clear() # Limpia la lista y la deja en blanco
+other_list.clear() # Limpia la lista y la deja sin elementos
 print(other_list)
 
 new_list.reverse() # Invierte el orden de los elementos de la lista
