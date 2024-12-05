@@ -29,7 +29,7 @@ other_set.clear() # Limpia el set y lo deja sin elementos
 print(other_set)
 
 # del es una operacion propia del lenguaje
-del other_set
+del other_set # Elimina la variable del set
 #print(other_set) # Error en consola indicando que other_set no está definido
 
 # Convertir a lista
