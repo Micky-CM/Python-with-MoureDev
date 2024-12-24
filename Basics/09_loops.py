@@ -1,6 +1,6 @@
 ## Loops ##
 
-# While
+## While
 my_condition = 0
 
 while my_condition < 10:
@@ -20,7 +20,7 @@ while my_condition < 20:
         break # Detiene la ejecución del ciclo
     print(my_condition)
 
-# For
+## For
 my_list = [32, 24, 24, 62, 19, 53, 40]
 # Recorre los elementos de variables iterables (listas, tuplas, sets y diccionarios)
 for element in my_list:
